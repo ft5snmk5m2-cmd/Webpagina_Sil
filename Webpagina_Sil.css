@@ -1,0 +1,40 @@
+Body{ 
+	font-family:system-ui, Arial, sans-serif;
+	color:#000000;
+	background-color:#FF6E00;
+	line-height: 1.5;
+	box-sizing:border-box;
+
+	.favorieten{
+		display: flex;
+		gap: 25rem;
+		color: #FF6E00;
+		background-color: white;
+		box: 50px solid;
+		padding: 50px;
+	        marging: 50px;
+}
+
+	img{
+		display; flex;
+		gap: 1rem;
+		width: 100%;
+        	max-width: 500px;
+        	height: auto;
+		align: center;	
+}
+
+.kaartenrij{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1rem;
+	align-items: stretch;
+}
+
+.kaart{
+	flex: 1 1 250px;
+	border: 1px solid #d0d0d0;
+	border-radius: 6px;
+	padding: 1rem;
+}
